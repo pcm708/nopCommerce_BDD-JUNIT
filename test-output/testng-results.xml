@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-29T08:36:23Z" name="Suite" finished-at="2020-08-29T08:37:00Z" duration-ms="36737">
+    <groups>
+    </groups>
+    <test started-at="2020-08-29T08:36:23Z" name="Test" finished-at="2020-08-29T08:36:45Z" duration-ms="21706">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:23Z" name="setup" finished-at="2020-08-29T08:36:31Z" duration-ms="8379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:31Z" name="setupLoginPage" finished-at="2020-08-29T08:36:31Z" depends-on-methods="tests.ParentTest.setup" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:31Z" name="verifyLoginPageTitle" finished-at="2020-08-29T08:36:32Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="loginAsAdminWithINCorrectCreds()[pri:2, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:32Z" name="loginAsAdminWithINCorrectCreds" finished-at="2020-08-29T08:36:36Z" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdminWithINCorrectCreds -->
+        <test-method signature="loginAsAdminWithCorrectCreds()[pri:3, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:36Z" name="loginAsAdminWithCorrectCreds" finished-at="2020-08-29T08:36:45Z" duration-ms="8554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdminWithCorrectCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@43599640]" started-at="2020-08-29T08:36:45Z" name="tearDown" finished-at="2020-08-29T08:36:45Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+    <test started-at="2020-08-29T08:36:45Z" name="test1" finished-at="2020-08-29T08:37:00Z" duration-ms="14988">
+      <class name="tests.DashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardPageTest@518caac3]" started-at="2020-08-29T08:36:45Z" name="setup" finished-at="2020-08-29T08:36:52Z" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupDashboardPage()[pri:0, instance:tests.DashboardPageTest@518caac3]" started-at="2020-08-29T08:36:52Z" name="setupDashboardPage" finished-at="2020-08-29T08:36:58Z" depends-on-methods="tests.ParentTest.setup" duration-ms="6881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDashboardPage -->
+        <test-method signature="verifyUserAccountName()[pri:1, instance:tests.DashboardPageTest@518caac3]" started-at="2020-08-29T08:36:58Z" name="verifyUserAccountName" finished-at="2020-08-29T08:37:00Z" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAccountName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardPageTest@518caac3]" started-at="2020-08-29T08:37:00Z" name="tearDown" finished-at="2020-08-29T08:37:00Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DashboardPageTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
